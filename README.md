@@ -16,6 +16,8 @@ This gem contains a generic OAuth2 strategy for OmniAuth. It is meant to serve
 as a building block strategy for other strategies and not to be used
 independently (since it has no inherent way to gather uid and user info).
 
+This fork has JWT 2.0.0 compatibility with OAuth2 1.0.0 Rubygem.
+
 ## Creating an OAuth2 Strategy
 
 To create an OmniAuth OAuth2 strategy using this gem, you can simply subclass

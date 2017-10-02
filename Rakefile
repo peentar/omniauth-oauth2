@@ -1,8 +1,10 @@
 #!/usr/bin/env rake
 require "bundler/gem_tasks"
 require "rspec/core/rake_task"
+require "rubygems/tasks"
 
 RSpec::Core::RakeTask.new
+Gem::Tasks.new
 
 task :test => :spec
 
